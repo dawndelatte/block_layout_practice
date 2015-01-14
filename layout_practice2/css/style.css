@@ -13,27 +13,24 @@ body {
 }
 .box1 {
 	background-color: #ACD6AB;
-	height: 523px;
+	height: 520px;
 	margin-right: 8px;
 	margin-left: 8px;
 	margin-bottom: 32px;
 }
 .box2 {
 	background-color: #D1E0D1;
-	height: 523px;
+	height: 520px;
 	margin-right: 8px;
 	margin-left: 8px;
 	margin-bottom: 32px;
 }
 .box3 {
 	background-color: #C95F5B;
-	height: 523px;
+	height: 520px;
 	margin-right: 8px;
 	margin-left: 8px;
 	margin-bottom: 32px;
-}
-.container1 {
-	margin-bottom: 50px;
 }
 .text_box1 {
 	background-color: #CBA970;
@@ -74,16 +71,21 @@ body {
 /*medium breakpoint 768px*/
 @media (min-width: 768px){
 .box1{
-	width: 31%;
-	display: inline-block;
+	width: 30%;
+	float left;
+	margin-right: 5%;
 }
 .box2{
-	width: 31%;
-	display: inline-block;
+	width: 30%;
+	float: left;
+	margin-right: 5%;
 }
 .box3{
-	width: 31%;
-	display: inline-block;
+	width: 30%;
+	float: left;
+}
+.container1 {
+	margin-bottom: 50px;
 }
 .text_box1 {
 	width: 45%;
