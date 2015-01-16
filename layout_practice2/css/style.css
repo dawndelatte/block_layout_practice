@@ -32,6 +32,11 @@ body {
 	margin-left: 8px;
 	margin-bottom: 32px;
 }
+/*.container1 {
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-bottom: 32px;
+}*/
 .text_box1 {
 	background-color: #CBA970;
 	height: 275px;
@@ -79,9 +84,11 @@ body {
 	width: 30%;
 	float: left;
 	margin-right: 5%;
+	margin-left: 0;
 }
 .box3{
 	width: 30%;
+	margin-left: 0;
 	float: left;
 }
 .container1 {
@@ -106,9 +113,9 @@ body {
 	width: 45%;
 	float: left;
 }
-.conatiner2 {
+/*.conatiner2 {
 	margin: 0;
-	padding: 0;
+	padding: 0;*/
 }
 .footer {
 	clear: both;
