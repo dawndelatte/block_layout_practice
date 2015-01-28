@@ -14,29 +14,23 @@ body {
 .box1 {
 	background-color: #ACD6AB;
 	height: 520px;
-	margin-right: 8px;
-	margin-left: 8px;
 	margin-bottom: 32px;
 }
 .box2 {
 	background-color: #D1E0D1;
 	height: 520px;
-	margin-right: 8px;
-	margin-left: 8px;
 	margin-bottom: 32px;
 }
 .box3 {
 	background-color: #C95F5B;
 	height: 520px;
+	margin-bottom: 32px;
+}
+.container1 {
 	margin-right: 8px;
 	margin-left: 8px;
 	margin-bottom: 32px;
 }
-/*.container1 {
-	margin-right: 8px;
-	margin-left: 8px;
-	margin-bottom: 32px;
-}*/
 .text_box1 {
 	background-color: #CBA970;
 	height: 275px;
@@ -77,18 +71,16 @@ body {
 @media (min-width: 768px){
 .box1{
 	width: 30%;
-	float left;
+	float: left;
 	margin-right: 5%;
 }
 .box2{
 	width: 30%;
 	float: left;
 	margin-right: 5%;
-	margin-left: 0;
 }
 .box3{
 	width: 30%;
-	margin-left: 0;
 	float: left;
 }
 .container1 {
@@ -112,10 +104,6 @@ body {
 .text_box4 {
 	width: 45%;
 	float: left;
-}
-/*.conatiner2 {
-	margin: 0;
-	padding: 0;*/
 }
 .footer {
 	clear: both;
